@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+#main{
+    width: 100%;
+
+}
+.clear{
+    clear: both;
+    /* background-color: #000; */
+}
+#herding{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+/* #navition{
+    display: none; */
+#navition{
+    display: inline-block;
+}
+
+#navition >li{
+
+    display: inline-block;
+
+}
+#navition li{
+    position: relative;
+}
+
+#navition >li>a{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46px;
+}
+#navition li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 14px;
+    display: inline-block;
+}
+#navition li:hover .baogom{
+    display: block;
+}
+
+#navition >li:hover>a,
+#navition li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#navition ,.baogom{
+    list-style: none;
+    /* margin: 0; */
+}
+
+#navition .baogom{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#navition .baogom a{
+    color: #000;
+    padding: 13px;
+    line-height: 46px;
+}
+#navition .size{
+    font-size: 14px;
+}
+#herding .seach{
+    float: right;
+    padding: 0 21px;
+
+}
+#herding .icon2{
+    color: #fff;
+    font-size: 21px;
+    line-height: 46px;
+}
+#herding .seach:hover{
+    background-color: #f44336;
+}
+#sliver{
+    margin-top: 46px;
+    padding-top: 50%;
+    background-image: url(https://cdn.tgdd.vn/2020/07/content/bo-anh-yasuo-lol-dep-va-chat-de-lam-hinh-nen-dien-thoai-may8-800x450.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+#slider .gioithieu{
+    display: inline-block;
+    color: #fff;
+    bottom: 47px;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+}
+.gioithieu{
+    position: absolute;
+}
+.gioithieu{
+    font-size: 20px;
+    font-weight: 20px;
+    color: #fff;
+    bottom: 47px;
+    width: 100%;
+    text-align: center;
+}
+.one{
+    padding: 20px;
+}
+#slider .two{
+    font-size: 15px;
+    margin-top: 32px;
+
+}
+
+
+#contanin{
+    
+}
+#contanin .header{
+    padding: 25px 0;
+    text-align: center;
+}
+
+.intro{
+    margin-top: 16px;
+    font-style: italic;
+    color: #333;
+}
+
+.vanban{
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#contanin .member-list{
+    float: right;
+}
+.tour-setion{
+    background-color: #000;
+}
+.tour-con{
+    /* text-align: center; */
+    color: #fff;
+}
+.chude{
+    margin-top: 16px;
+    padding-top: 64px;
+    text-align: center
+}
+.vanban2{
+    margin-top: 16px;
+    font-style: italic;
+    text-align: center
+}
+.textket{
+    margin: 0 250px;
+    margin-top: 40px;
+    color: #000;
+    background-color: #fff;
+    list-style: none;
+}
+.textket li{
+    font-size: 15px;
+    color: #757575;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.test{
+    padding: 20px;
+}
+/* .textket.chu{
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+    background-color: #f44336;
+} */
+#contanin .place{
+    margin: 32px -8px 0;
+}
+
+.place-team{
+    float: left;
+    width: 33.33333%;
+    padding: 0 18px;
+    padding-bottom: 40px;
+}
+.imgic{
+    width: 100%;
+}
+.imgic:hover{
+    opacity: 0.6;
+}
+.place-vanban{
+    padding: 16px;
+    font-size: 15px;
+    background-color: #ccc;
+}
+.ten{
+    font-size: 15px;
+}
+.ten1{
+    margin-top: 8px;
+    font-style:italic ;
+}
+.ten2{
+    margin-top: 8px;
+    line-height: 1.5;
+}
+.buy-btn{
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.buy-btn:hover{
+    background-color: #f44336;
+}
+.contact{
+    background-color: #000;
+}
+.contact-adress{
+
+}
+.contact-header{
+    text-align: center;
+}
+.contact-vanban{
+    text-align: center;
+    font-style: italic;
+    margin-top: 16px;
+    opacity: 0.6;
+}
+.contact-adress{
+    padding: 16px 6px;
+    margin: 16px 100px;
+    color: #fff;
+    /* text-transform: uppercase; */
+    background-color: #000;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.contact-itcan i[class*=ti-]{
+    width: 30px;
+    display: inline-block;
+    margin-left: 150px ;
+}
+.contact-information{
+    margin-left: 250px;
+    font-size: 15px;
+    line-height: 16px;
+}
+.halff{
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+}
+.sumbitt{
+    margin-top: 16px;
+    background-color: #000;
+    color: #fff;
+    
+}
+#footder{
+
+
+}
